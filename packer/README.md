@@ -15,3 +15,6 @@ If you only have VMware or VirtualBox available, you may also tell Packer to bui
 
     $ packer build -only=virtualbox-iso debian-7.4-i386.json
 
+## Authors
+
+Thanks to https://github.com/opscode/bento
