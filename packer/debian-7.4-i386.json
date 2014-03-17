@@ -24,7 +24,7 @@
         "<enter><wait>"
       ],
       "boot_wait": "10s",
-      "disk_size": 40960,
+      "disk_size": 20960,
       "guest_os_type": "Debian",
       "http_directory": "http",
       "iso_checksum": "b6daf1584bf9e7748ebd160b09745984c244c3bb",
@@ -64,7 +64,7 @@
         "<enter><wait>"
       ],
       "boot_wait": "10s",
-      "disk_size": 40960,
+      "disk_size":  2960,
       "guest_os_type": "debian5",
       "http_directory": "http",
       "iso_checksum": "b6daf1584bf9e7748ebd160b09745984c244c3bb",
@@ -88,7 +88,7 @@
   "post-processors": [
     {
       "type": "vagrant",
-      "output": "../builds/{{.Provider}}/opscode_debian-7.4-i386_chef-{{user `chef_version`}}.box"
+      "output": "builds/{{.Provider}}/debian-7.4-i386.box"
     }
   ],
   "provisioners": [
